@@ -55,10 +55,10 @@ exampledata <- matrix(data = c("00100",
                       nrow = 12,
                       ncol = 1)
 
-day3func_a(exampledata)
+# day3func_a(exampledata)
 
 #answer
-day3func_a(data3a)
+# day3func_a(data3a)
 
 ######################
 #part b
@@ -195,10 +195,10 @@ day3func_b <- function(data3a){
 }
 
 
-day3func_b(exampledata)
+# day3func_b(exampledata)
 
 #answer
-day3func_b(data3a)
+# day3func_b(data3a)
 
 
 

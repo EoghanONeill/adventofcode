@@ -109,10 +109,10 @@ day4func_a <- function(data4a){
 }
 
 
-day4func_a(exampledata)
+# day4func_a(exampledata)
 
 #answer
-day4func_a(data4a)
+# day4func_a(data4a)
 
 ######################
 #part b
@@ -238,9 +238,9 @@ day4func_b <- function(data4a){
 }
 
 
-day4func_b(exampledata)
+# day4func_b(exampledata)
 
 #answer
-day4func_b(data4a)
+# day4func_b(data4a)
 
 

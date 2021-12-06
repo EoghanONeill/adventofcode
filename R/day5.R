@@ -5,7 +5,7 @@ data5a <- read.csv("data/day5data_a.csv", header = FALSE,
                    )
 
 
-strsplit(string,split='->', fixed=TRUE)
+# strsplit(string,split='->', fixed=TRUE)
 
 
 exampledata <- read.csv("data/day5example.csv", header = FALSE,
@@ -44,7 +44,19 @@ for(i in 1:nrow(data5a)){
 # texttemp <- scan(text = data4a[35,], what = "")
 
 
-
+#' @title day5func_a
+#'
+#' @description
+#' @param data5a data
+#' @param
+#' @return A number
+#' @useDynLib adventofcode, .registration = TRUE
+#' @importFrom Rcpp evalCpp
+#' @examples
+#'
+#'
+#'
+#' @export
 day5func_a <- function(data5a){
 
   xmax <- max(cbind(data5a[,1], data5a[,3]))
@@ -76,11 +88,11 @@ day5func_a <- function(data5a){
 
 }
 
-
-day5func_a(exampledata_table)
+#
+# day5func_a(exampledata_table)
 
 #answer
-day5func_a(data5a_table)
+# day5func_a(data5a_table)
 
 
 
@@ -141,10 +153,10 @@ day5func_b <- function(data5a){
 }
 
 
-day5func_b(exampledata_table)
+# day5func_b(exampledata_table)
 
 #answer
-day5func_b(data5a_table)
+# day5func_b(data5a_table)
 
 
 
