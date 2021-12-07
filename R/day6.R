@@ -200,11 +200,17 @@ day6func_apply_rec<- function(data6a, num_days1 = 18){
 #
 # #answer to part b
 #
+
+# start.time <- Sys.time()
 # res_b <- adventofcode:::day6func_apply_rec_cpp(data6a = data6a_table,
 #                                       num_days = 256, ncore = ncore-1)
 #
-# format(res_b,scientific=FALSE)
+# end.time <- Sys.time()
 #
+# end.time - start.time
+#
+# format(res_b,scientific=FALSE)
+
 
 
 #5509621059
