@@ -130,7 +130,7 @@ day13func_a <- function(exampledata){
 
 }
 
-day13func_a(exampledata)
+# day13func_a(exampledata)
 #
 # day13func_a(data13a)
 
@@ -243,10 +243,10 @@ day13func_b <- function(exampledata){
 
 }
 
-day13func_b(exampledata)
-
-
-result13b <- day13func_b(data13a)
-save(result13b, file = "data/day13result_b.txt")
+# day13func_b(exampledata)
+#
+#
+# result13b <- day13func_b(data13a)
+# save(result13b, file = "data/day13result_b.txt")
 
 #
