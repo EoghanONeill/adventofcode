@@ -109,7 +109,7 @@ day14func_b_temp <- function(orig_polymer,exampledata, num_steps){
 
 }
 
-res <- day14func_b_temp(exampledata, 1)
+# res <- day14func_b_temp(exampledata, 1)
 
 
 
@@ -300,11 +300,11 @@ day14func_b <- function(exampledata#, num_steps
 #
 # sprintf("%.1f",res)
 
-res <- day14func_b(data14a)
-
-sprintf("%.1f",res)
-
-res[,2]
+# res <- day14func_b(data14a)
+#
+# sprintf("%.1f",res)
+#
+# res[,2]
 
 #
 #
