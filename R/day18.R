@@ -2,18 +2,12 @@
 setwd("C:/Users/eonei/Dropbox/adventofcode/attempt2/adventofcode")
 
 
-# decoder <- read.csv("data/day18decoder.txt", header = FALSE,sep = " ",
-#                     colClasses = "character")
 
 data18a <- read.csv("data/day18data.txt", header = FALSE,sep = "=",
                    colClasses = "character")
 #
 # exampledata <- read.csv("data/day18example.txt", header = FALSE, sep = "=",
 #                         colClasses = "character")
-#
-#
-# exampledata1_vec <- strsplit("[[[[4,3],4],4],[7,[[8,4],9]]]",
-#                              split=c(''), fixed=TRUE)[[1]]
 
 exampledata2_vec <- strsplit("[1,1]",
                              split=c(''), fixed=TRUE)[[1]]
